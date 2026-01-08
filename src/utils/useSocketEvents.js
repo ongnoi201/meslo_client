@@ -23,7 +23,7 @@ export const useSocketEvents = () => {
 
         const handleNotification = (data) => {
             if (!data?.sender?.username) return;
-            toast.info(`${data.sender.username} ${data.content}`);
+            toast.info(`${data.sender.fname} ${data.content}`);
         };
 
         socket.on('online_users_snapshot', handleOnlineSnapshot);
