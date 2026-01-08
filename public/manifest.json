@@ -1,0 +1,25 @@
+{
+    "short_name": "MesLo",
+    "name": "Chat Realtime Application",
+    "icons": [
+        {
+            "src": "chat64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "chat128.png",
+            "type": "image/png",
+            "sizes": "128x28"
+        },
+        {
+            "src": "chat256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
