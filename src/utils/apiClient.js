@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'https://zq33c53q-5000.asse.devtunnels.ms/api', // Thay bằng URL server của bạn
+    baseURL: 'https://meslo-server.onrender.com/api', // Thay bằng URL server của bạn
 });
 
 // Tự động thêm Token vào Header mỗi khi gửi request

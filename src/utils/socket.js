@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 
 // Thay URL bằng địa chỉ Backend của bạn
-const SOCKET_URL = "https://zq33c53q-5000.asse.devtunnels.ms/"; 
+const SOCKET_URL = "https://meslo-server.onrender.com/"; 
 
 export const socket = io(SOCKET_URL, {
   autoConnect: false, // Không kết nối ngay lập tức, đợi khi có User ID
