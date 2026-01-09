@@ -139,7 +139,7 @@ const Header = () => {
     };
 
     return (
-        <header className="bg-white sticky top-0 z-50 px-6 py-4 shadow-sm">
+        <header className="bg-white sticky top-0 z-50 px-6 py-4 border-b border-gray-100">
             <div className="flex justify-between items-center max-w-4xl mx-auto relative">
 
                 {!isSearching ? (
